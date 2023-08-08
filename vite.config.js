@@ -7,7 +7,7 @@ import vue from '@vitejs/plugin-vue'
 export default defineConfig({
   build: {
     rollupOptions: {
-      external: ['/19/80/80/41J888piCITi.mp4']
+      external: ['https://pic.pikbest.com/19/80/80/41J888piCITi.mp4']
     }
   },
   plugins: [vue()],
