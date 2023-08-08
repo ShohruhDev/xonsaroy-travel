@@ -2,12 +2,7 @@
   <section class="videolazy">
     <div class="video_content">
       <video autoplay muted loop>
-        <source
-          class="source"
-          src="
-https://pic.pikbest.com/19/80/80/41J888piCITi.mp4"
-          type="video/mp4"
-        />
+        <source class="source" src="hello" type="video/mp4" />
       </video>
       <div class="info_video_content">
         <div v-if="locale === 'ru'" class="slogo">
