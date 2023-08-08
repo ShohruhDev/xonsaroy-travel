@@ -1,9 +1,9 @@
 <template>
   <section class="videolazy">
     <div class="video_content">
-      <video autoplay muted loop>
+      <!-- <video autoplay muted loop>
         <source class="source" src="hello" type="video/mp4" />
-      </video>
+      </video> -->
       <div class="info_video_content">
         <div v-if="locale === 'ru'" class="slogo">
           <span class="travel">ПУТЕШЕСТВУЙ</span>
