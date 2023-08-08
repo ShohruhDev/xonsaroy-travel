@@ -1,0 +1,74 @@
+{
+  "navbar": {
+    "aboutus": "Biz Haqimizda",
+    "turs": "Turlar",
+    "contacts": "Kontaktlar",
+    "contactwithus": "Biz bilan bog'lanish"
+  },
+  "video": {
+    "totours": "turlarga o'tish"
+  },
+  "aboutus": {
+    "description": "Xonsaroy Travel - qiziqarli sayohatlar bo'yicha sizning rahbaringiz! Ekskursiyalardan tortib to ochiq havoda sayr qilishgacha, biz eng yaxshi xizmatga ega turli xil turlarni taklif qilamiz. Bizning professionallar jamoasi sayohatingizning har bir tafsilotiga g'amxo'rlik qiladi, sifat va xavfsizlikni ta'minlaydi. Sayohatlarni qo'llab-quvvatlash va ekologik mas'uliyat unutilmas tajriba uchun kafolatdir!    Biz sayohatni hamma uchun ochiq qilamiz Biz har bir inson dunyoni boshdan kechirish huquqiga ega bo'lishi kerak deb hisoblaymiz. Biz uchun qayerda bo'lishni va u erga qanday borishni tanlashdan ko'ra kattaroq erkinlik yo'q. Shuning uchun biz dunyoni hamma uchun ochiq va ochiq qilib, arzon sayohatlar yo‘lidagi to‘siqlarni yo‘qqa chiqarmoqdamiz.",
+    "title": "Biz Haqimizda"
+  },
+  "tours": {
+    "title": "Mashhur turlar",
+    "dubai": {
+      "title": "Dubai",
+      "description": "Dubay, Fors ko'rfazidagi marvarid! Bizning hayajonli Dubay sayohatimiz sizni cho'l landshaftlari ajoyib osmono'par binolar va hashamatli savdo markazlari bilan uchrashadigan an'ana va zamonaviylikning noyob uyg'unligiga sho'ng'ishga taklif qiladi. "
+    },
+    "antalya": {
+      "title": "Antaliya",
+      "description": "Antaliyaning hayajonli olamiga xush kelibsiz - Turk Rivierasining durdonasi! Antaliyaga noyob sayohatimiz sizga iliq O'rta er dengizining cheksiz kengliklariga sho'ng'ish, tengsiz plyajlardan bahramand bo'lish va ushbu ajoyib mintaqaning boy madaniy merosi bilan tanishish uchun unutilmas imkoniyatni beradi."
+    },
+    "batumi": {
+      "title": "Batumi",
+      "description": "Batumi - Qora dengizdagi go'zal shahar, u erda qulay dengiz iqlimi, zamonaviy arxitektura va Gruziyaning o'ziga xos atmosferasi birlashadi! Batumiga sayohatimiz sizni qadimiy madaniy an'analar zamonaviy o'yin-kulgilar bilan chambarchas bog'langan ushbu kurort shaharchasi bo'ylab qiziqarli sayohatga taklif qiladi."
+    },
+    "istambul": {
+      "title": "Istambul",
+      "description": "Istanbul ikki qit'a o'rtasidagi ko'prik, Sharq va G'arb madaniyatlarining sehrli uyg'unligi! Istanbulga sayohatimiz sizni mahobatli saroylar, masjidlar va suzish havzalari zamonaviy arxitektura durdonalari bilan uyg‘unlashgan ushbu tarixiy va madaniy markaz bo‘ylab qiziqarli sayohatga chorlaydi."
+    },
+    "shrilanka": {
+      "title": "Shri-Lanka",
+      "description": "Shri-Lanka - Hind okeanining durdonasi, u erda sizni hayajonli sarguzashtlar, boy madaniy meros va ajoyib manzaralar kutmoqda! Bizning Shri-Lanka sayohatimiz sizga qadimiy an'analar zamonaviylik bilan chambarchas bog'langan ushbu rang-barang mamlakat bilan tanishish uchun noyob imkoniyatni taqdim etadi."
+    },
+    "sharmlsheyx": {
+      "title": "Sharm-El-Sheyx",
+      "description": "Qizil dengizdagi jannatga – Sharm al-Shayxga xush kelibsiz! Ushbu sayyohlik hududiga qiziqarli sayohatimiz sizni go'zal manzaralar, tiniq suvlar va noyob suv osti boyliklari bilan o'ralgan holda dam olishga taklif qiladi."
+    },
+    "days": "kun"
+  },
+  "advantages": {
+    "title": "Bizning afzalliklarimiz",
+    "whywe": {
+      "title": "Nima uchun biz bilan ishlashingiz kerak",
+      "description": "Biz bilan hamkorlik unutilmas va muvaffaqiyatli sayohatlarning kalitidir. Bizning kompaniyamizni tanlash sizning sayohat ehtiyojlaringiz uchun eng oqilona harakat ekanligining bir necha jiddiy sabablari bor.Biz sayohatlarni tashkil etishda boy tajribaga egamiz va unutilmas dam olishni ta'minlash uchun har bir tafsilotni diqqat bilan ko'rib chiqamiz. Sayohat bo'yicha mutaxassislarimiz mukammal sayohat tajribasini yaratish uchun chuqur bilim va ishtiyoqga ega."
+    },
+    "help": {
+      "title": "Ekskursiyani tanlashda yordam",
+      "description": "Bizning sayohat bo'yicha mutaxassislarimiz keyingi qiziqarli sarguzashtni tanlashning har bir bosqichida sizga ishonchli va professional yordam ko'rsatishga tayyor. Turni tanlash kelajakdagi sayohatingizni belgilovchi muhim qadam ekanligini tushunamiz va biz sizga eng yaxshi tanlov qilishingizga yordam berishga tayyormiz."
+    },
+    "organization": {
+      "title": "Turni tashkil etish",
+      "description": "Biz yangi ufqlar va unutilmas taassurotlarni qidirayotganlar uchun noyob va hayajonli turlarning keng assortimentini taklif qilamiz.Biz bilan siz qiziqarli tanishuvlar, aql bovar qilmaydigan manzaralar va yangi madaniy kashfiyotlar bilan to'la qiziqarli sayohatga borishingiz mumkin. Biz har bir mijozimiz o'zlarini qulay va beparvo his qilishlariga, sayohatdan to'liq zavq olishlariga ishonch hosil qilamiz."
+    },
+    "quality": {
+      "title": "Turni tashkil etish sifati",
+      "description": "Bizning ekskursiyalarimiz sayohat mukammalligining timsoli bo‘lib, har bir sayohatchiga unutilmas va stresssiz tajriba taqdim etish uchun har bir detal puxta ishlab chiqilgan. Biz noyob tarixiy, tabiiy va madaniy jihatlarni o‘zida mujassam etgan tengsiz marshrutlarni yaratish qobiliyatimiz bilan faxrlanamiz."
+    }
+  },
+  "galery": "Galereya",
+  "contactus": {
+    "title": "Savollaringiz bormi?",
+    "description": "So'rov qoldiring va biz javob beramiz",
+    "form": {
+      "name": "Ism",
+      "phone": "Telefon",
+      "email": "Pochta",
+      "requestbtn": "So'rov qoldirish"
+    }
+  },
+  "location": "Manzilimiz"
+}
