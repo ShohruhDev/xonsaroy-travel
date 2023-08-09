@@ -1,5 +1,5 @@
 <template>
-  <footer>
+  <footer id="footer">
     <div class="footer_content">
       <div class="img">
         <a href="/">
@@ -7,9 +7,9 @@
         </a>
       </div>
       <div class="navs">
-        <a href="#">{{ $t('navbar.aboutus') }}</a>
-        <a href="#">{{ $t('navbar.turs') }}</a>
-        <a href="#">{{ $t('navbar.contactwithus') }}</a>
+        <a href="#about">{{ $t('navbar.aboutus') }}</a>
+        <a href="#adv">{{ $t('navbar.turs') }}</a>
+        <a href="tel:+998995566666">{{ $t('navbar.contactwithus') }}</a>
       </div>
       <div class="contact_footer">
         <a href="tel:+998995566666">
@@ -20,20 +20,21 @@
           <i class="fab fa-telegram"></i>
           https://t.me/xonsaroytravel
         </a>
-        <a href="#">
-          <i class="fab fa-telegram"></i>
+        <a href="tel:+998995566666">
+          <i class="fa-solid fa-phone"></i>
           +998 995566666
         </a>
       </div>
       <div class="social_footer">
-        <div class="mail">
+        <a href="mailto:xonsaroytravel@gmail.com" class="mail">
           <i class="fas fa-envelope"></i>
-          <span> xonsaroytravel@gmail.com </span>
-        </div>
+          xonsaroytravel@gmail.com
+        </a>
         <div class="social">
           <a href="https://instagram.com/xonsaroy.travel?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D"
-            ><i id="ins" class="fab fa-instagram"></i
-          ></a>
+            ><i id="ins" class="fab fa-instagram"></i>
+            instagram.com/xonsaroy.travel
+          </a>
         </div>
       </div>
     </div>
@@ -42,7 +43,16 @@
 
 <script setup></script>
 
-<style>
+<style scoped>
+a {
+  color: inherit;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+  color: #51cf66;
+  transition: 0.5s ease all;
+}
 .logo {
   width: 150px;
   height: 150px;
@@ -165,22 +175,6 @@ footer .footer_content .navs a:hover {
   }
 }
 
-.mail span {
-  font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 17px;
-  color: #282828;
-  transition: 0.5s ease all;
-  cursor: pointer;
-}
-
-.mail span:hover {
-  color: #51cf66;
-  transition: 0.5s ease all;
-}
-
 .social {
   display: flex;
   flex-direction: row;
@@ -188,22 +182,8 @@ footer .footer_content .navs a:hover {
   margin-top: 17px;
 }
 
-.social i {
-  margin-right: 10px;
-}
-
-.social #vk {
-  font-size: 20px;
-  color: #bc0000;
-}
-
 .social #ins {
   font-size: 20px;
   color: #e59b06;
-}
-
-.social #fb {
-  font-size: 20px;
-  color: #17c1bc;
 }
 </style>

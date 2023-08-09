@@ -4,21 +4,28 @@
       <i class="fa-solid fa-share-nodes"></i>
     </span>
     <i class="line"></i>
-    <a href="#"><i class="fab fa-vk"></i></a>
-    <a href="#"><i class="fab fa-instagram"></i></a>
-    <a href="#"><i class="fab fa-facebook-f"></i></a>
+    <a href=" https://t.me/xonsaroytravel"><i class="fab fa-telegram"></i></a>
+    <a href="https://instagram.com/xonsaroy.travel?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D"
+      ><i class="fab fa-instagram"></i
+    ></a>
+    <a href="tel:+998995566666">
+      <i class="fa-solid fa-phone"></i>
+    </a>
   </div>
 </template>
 <script setup>
-import { ref } from "vue";
+import { ref } from 'vue'
 
-const isOpen = ref(false);
+const isOpen = ref(false)
 
 const toggleShare = () => {
-  isOpen.value = !isOpen.value;
-};
+  isOpen.value = !isOpen.value
+}
 </script>
 <style scoped>
+a:hover {
+  color: black;
+}
 * {
   box-sizing: border-box;
 }
@@ -69,7 +76,9 @@ a:nth-of-type(3) {
 }
 a {
   -webkit-transform: scale(0) translate3d(0, 0, 0);
-  -webkit-transition: -webkit-transform 0.0001s linear, background 0.0001s ease;
+  -webkit-transition:
+    -webkit-transform 0.0001s linear,
+    background 0.0001s ease;
 }
 
 /* animation */

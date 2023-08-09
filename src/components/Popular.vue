@@ -1,5 +1,5 @@
 <template>
-  <section class="popular">
+  <section class="popular" id="tours">
     <div class="popular_content">
       <div class="title_content">
         <div class="title">

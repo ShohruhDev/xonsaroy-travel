@@ -1,5 +1,5 @@
 <template>
-  <section class="aboutus">
+  <section class="aboutus" id="about">
     <div class="about_content">
       <div class="about_img"></div>
       <div class="about_content_info">

@@ -1,40 +1,65 @@
 <template>
-  <header>
-    <div class="header_content">
-      <div class="logo">
-        <a href="/">
-          <!-- <img src="../img/logo_white.png" alt="logo" /> -->
-          <img class="logo" src="../img/logo_xonsaroy.svg" alt="logo" />
-        </a>
+  <div>
+    <header>
+      <div class="header_content">
+        <div class="logo">
+          <a href="/">
+            <img class="logo" src="../img/logo_xonsaroy.svg" alt="logo" />
+          </a>
+        </div>
+        <div class="navs">
+          <nav>
+            <a href="#about"
+              ><span>{{ $t('navbar.aboutus') }}</span></a
+            >
+            <a href="#adv"
+              ><span>{{ $t('navbar.turs') }}</span></a
+            >
+            <a href="#footer"
+              ><span>{{ $t('navbar.contacts') }}</span></a
+            >
+            <i id="mobile-btn" class="fas fa-bars" @click="handleClick"></i>
+            <LanguageSwitcher />
+          </nav>
+        </div>
       </div>
-      <div class="navs">
-        <nav>
-          <a href="#"
-            ><span>{{ $t('navbar.aboutus') }}</span></a
-          >
-          <a href="#"
-            ><span>{{ $t('navbar.turs') }}</span></a
-          >
-          <a href="#"
-            ><span>{{ $t('navbar.contacts') }}</span></a
-          >
-          <i id="mobile-btn" class="fas fa-bars"></i>
-          <LanguageSwitcher />
-        </nav>
-      </div>
+    </header>
+    <div class="mobile_navs" :style="{ visibility: active ? 'visible' : 'hidden' }">
+      <a class="close" @click="active = false">
+        <i class="fa-regular fa-circle-xmark"></i>
+      </a>
+      <a href="#about"
+        ><span>{{ $t('navbar.aboutus') }}</span></a
+      >
+      <a href="#adv"
+        ><span>{{ $t('navbar.turs') }}</span></a
+      >
+      <a href="#footer"
+        ><span>{{ $t('navbar.contacts') }}</span></a
+      >
+      <LanguageSwitcher />
     </div>
-  </header>
-  <div class="mobile_navs">
-    <a href="#"><span>Главная</span></a>
-    <a href="#"><span>Экскурсии</span></a>
-    <a href="#"><span>Личный кабинет</span></a>
-    <LanguageSwitcher />
   </div>
 </template>
+
 <script setup>
+import { ref } from 'vue'
 import LanguageSwitcher from './LanguageSwitcher.vue'
+
+const active = ref(false)
+
+const handleClick = () => {
+  active.value = !active.value
+}
 </script>
+
 <style scoped>
+.close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+}
+
 .logo {
   width: 150px;
   height: 150px;
@@ -87,6 +112,14 @@ nav a span:hover {
   .navs nav a {
     display: none;
   }
+  .mobile_navs {
+    visibility: visible;
+  }
+}
+@media (min-width: 768px) {
+  .mobile_navs {
+    visibility: hidden;
+  }
 }
 @media (min-width: 768px) {
   .navs nav a {
@@ -109,14 +142,13 @@ nav a span:hover {
 
 .mobile_navs {
   position: absolute;
-  height: 100vh;
+  height: 75vh;
   width: 100%;
-  background: #384d70;
+  background: black;
+  opacity: 0.8;
   z-index: 1999;
-  margin-top: 100px;
   display: flex;
   flex-direction: column;
-  visibility: hidden;
   align-items: center;
   justify-content: center;
 }
@@ -127,7 +159,7 @@ nav a span:hover {
     height: 120px;
   }
   .mobile_navs {
-    margin-top: 100px;
+    visibility: visible;
   }
 }
 
@@ -144,24 +176,5 @@ nav a span:hover {
   opacity: 0.8;
   margin: 10px 0px;
   cursor: pointer;
-}
-
-.mobile_navs a:hover {
-  color: #b6b6b6fa;
-}
-
-.mobile_navs .btn_wrapper {
-  padding-top: 50px;
-}
-
-.mobile_navs .header_btn_mob {
-  padding: 11px 30px;
-  border-radius: 10px;
-  border: none;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 15px;
-  line-height: 18px;
-  color: white;
 }
 </style>

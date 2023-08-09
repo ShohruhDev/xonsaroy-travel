@@ -17,7 +17,7 @@
           <span class="company_name">Xon Saroy TRAVEL</span>
           <span class="without">bilan birga</span>
           <span class="travel">SAYOHAT QILING</span>
-          <a href="./excurse.html" class="btn_lazy"
+          <a href="#tours" class="btn_lazy"
             >{{ $t('video.totours') }} <i class="fas fa-long-arrow-alt-right"></i
           ></a>
         </div>
