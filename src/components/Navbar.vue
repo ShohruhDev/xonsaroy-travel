@@ -19,7 +19,7 @@
               ><span>{{ $t('navbar.contacts') }}</span></a
             >
             <i id="mobile-btn" class="fas fa-bars" @click="handleClick"></i>
-            <LanguageSwitcher />
+            <LanguageSwitcher class="language" />
           </nav>
         </div>
       </div>
@@ -37,7 +37,7 @@
       <a href="#footer"
         ><span>{{ $t('navbar.contacts') }}</span></a
       >
-      <LanguageSwitcher />
+      <LanguageSwitcher class="switcher" />
     </div>
   </div>
 </template>
@@ -110,6 +110,9 @@ nav a span:hover {
     font-size: 20px;
   }
   .navs nav a {
+    display: none;
+  }
+  .navs nav .language {
     display: none;
   }
   .mobile_navs {
