@@ -35,6 +35,7 @@
         <div>
           <a
             class="social_payme"
+            target="_blank"
             href="https://payme.uz/fallback/merchant/?id=64d4bb6b8aff6373c2ddd4d1"
           >
             <img

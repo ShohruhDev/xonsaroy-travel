@@ -10,7 +10,6 @@
         <swiper
           :slidesPerView="'auto'"
           :spaceBetween="30"
-          :loop="true"
           :pagination="{
             clickable: true
           }"
@@ -51,12 +50,11 @@
 <script setup>
 import { Swiper, SwiperSlide } from 'swiper/vue'
 import 'swiper/css'
-import 'swiper/css/pagination'
 import 'swiper/css/navigation'
-import { Pagination, Navigation, Autoplay } from 'swiper/modules'
+import { Navigation } from 'swiper/modules'
 import { useI18n } from 'vue-i18n'
 
-const modules = [Pagination, Navigation, Autoplay]
+const modules = [Navigation]
 import { reactive } from 'vue'
 
 const { t } = useI18n({ useScope: 'global' })
