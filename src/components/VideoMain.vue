@@ -1,9 +1,10 @@
 <template>
   <section class="videolazy">
     <div class="video_content">
-      <!-- <video autoplay muted loop>
-        <source class="source" src="hello" type="video/mp4" />
-      </video> -->
+      <img
+        src="https://images.unsplash.com/photo-1433838552652-f9a46b332c40?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2370&q=80"
+        alt=""
+      />
       <div class="info_video_content">
         <div v-if="locale === 'ru'" class="slogo">
           <span class="travel">ПУТЕШЕСТВУЙ</span>
@@ -42,11 +43,11 @@ const { locale } = useI18n({ useScope: 'global' })
 
 .video_content {
   width: 100%;
-  height: 80vh;
+  height: 100%;
   position: relative;
 }
 
-.video_content video {
+.video_content img {
   object-fit: cover;
   position: absolute;
   z-index: 1;

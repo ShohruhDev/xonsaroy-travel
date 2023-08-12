@@ -8,7 +8,7 @@
     <a href="https://instagram.com/xonsaroy.travel?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D"
       ><i class="fab fa-instagram"></i
     ></a>
-    <a href="tel:+998995566666">
+    <a href="tel:+998933010575">
       <i class="fa-solid fa-phone"></i>
     </a>
   </div>

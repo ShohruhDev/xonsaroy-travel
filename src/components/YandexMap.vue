@@ -5,9 +5,6 @@
         <div class="title">
           <span>{{ $t('location') }}</span>
         </div>
-        <div class="more">
-          <a href="#" class="more">Посмотреть на карте Google</a>
-        </div>
       </div>
 
       <div class="map_location">

@@ -65,7 +65,7 @@ const popularItems = reactive([
   {
     title: t('tours.antalya.title'),
     duration: `7 ${t('tours.days')}`,
-    price: '420 $',
+    price: '780 $',
     description: t('tours.antalya.description'),
     imgSrc:
       'https://images.unsplash.com/photo-1578852952104-54f3dac8b260?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=927&q=80'
@@ -81,7 +81,7 @@ const popularItems = reactive([
   {
     title: t('tours.istambul.title'),
     duration: `7 ${t('tours.days')}`,
-    price: '420 $',
+    price: '738 $',
     description: t('tours.istambul.description'),
     imgSrc:
       'https://images.unsplash.com/photo-1633505191034-2763b7aa980c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1288&q=80'
@@ -89,7 +89,7 @@ const popularItems = reactive([
   {
     title: t('tours.sharmlsheyx.title'),
     duration: `7 ${t('tours.days')}`,
-    price: '420 $',
+    price: '590 $',
     description: t('tours.sharmlsheyx.description'),
     imgSrc:
       'https://images.unsplash.com/photo-1568322445389-f64ac2515020?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1277&q=80'
@@ -97,7 +97,7 @@ const popularItems = reactive([
   {
     title: t('tours.batumi.title'),
     duration: `7 ${t('tours.days')}`,
-    price: '420 $',
+    price: '650 $',
     description: t('tours.batumi.description'),
     imgSrc:
       'https://images.unsplash.com/photo-1622383693127-a8d29be7ab7d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1335&q=80'
@@ -105,7 +105,7 @@ const popularItems = reactive([
   {
     title: t('tours.shrilanka.title'),
     duration: `7 ${t('tours.days')}`,
-    price: '420 $',
+    price: '1100 $',
     description: t('tours.shrilanka.description'),
     imgSrc:
       'https://images.unsplash.com/photo-1638434367723-ccfb703e0314?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1335&q=80'

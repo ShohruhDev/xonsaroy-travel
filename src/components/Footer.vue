@@ -12,17 +12,13 @@
         <a href="tel:+998995566666">{{ $t('navbar.contactwithus') }}</a>
       </div>
       <div class="contact_footer">
-        <a href="tel:+998995566666">
-          <i class="fab fa-whatsapp"></i>
-          +998 995566666
-        </a>
         <a href=" https://t.me/xonsaroytravel">
           <i class="fab fa-telegram"></i>
           https://t.me/xonsaroytravel
         </a>
         <a href="tel:+998995566666">
           <i class="fa-solid fa-phone"></i>
-          +998 995566666
+          +998 93 301 05 75
         </a>
       </div>
       <div class="social_footer">
@@ -34,6 +30,17 @@
           <a href="https://instagram.com/xonsaroy.travel?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D"
             ><i id="ins" class="fab fa-instagram"></i>
             instagram.com/xonsaroy.travel
+          </a>
+        </div>
+        <div>
+          <a
+            class="social_payme"
+            href="https://payme.uz/fallback/merchant/?id=64d4bb6b8aff6373c2ddd4d1"
+          >
+            <img
+              src="https://cdn.paycom.uz/documentation_assets/payme_01.svg?target=_blank"
+              alt=""
+            />
           </a>
         </div>
       </div>
@@ -56,6 +63,15 @@ a:hover {
 .logo {
   width: 150px;
   height: 150px;
+}
+.social_payme {
+  width: 10px;
+  height: 10px;
+  padding-top: 10px;
+}
+.social_payme img {
+  width: 100px;
+  height: 60px;
 }
 @media screen and (max-width: 560px) {
   .logo {
