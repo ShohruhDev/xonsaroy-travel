@@ -10,9 +10,7 @@
           <span class="travel">ПУТЕШЕСТВУЙ</span>
           <span class="without">вместе с</span>
           <span class="company_name">Xon Saroy TRAVEL</span>
-          <a href="./excurse.html" class="btn_lazy"
-            >К турам <i class="fas fa-long-arrow-alt-right"></i
-          ></a>
+          <a href="#tours" class="btn_lazy">К турам <i class="fas fa-long-arrow-alt-right"></i></a>
         </div>
         <div v-else-if="locale === 'uz'" class="slogo">
           <span class="company_name">Xon Saroy TRAVEL</span>
@@ -35,6 +33,9 @@ const { locale } = useI18n({ useScope: 'global' })
 </script>
 
 <style scoped>
+.company_name {
+  text-transform: uppercase;
+}
 .videolazy {
   width: 100vw;
   height: 80vh;
@@ -164,12 +165,12 @@ const { locale } = useI18n({ useScope: 'global' })
 }
 
 .company_name {
-  font-family: sans-serif;
+  font-family: 'Bricolage Grotesque';
   font-style: normal;
-  font-weight: 900;
+  font-weight: 600;
   font-size: 96px;
   line-height: 117px;
-  color: rgba(0, 0, 0, 0);
+  color: white;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: #ffffff;
   padding: 0;
