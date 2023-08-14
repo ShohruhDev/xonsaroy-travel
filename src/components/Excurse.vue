@@ -1,5 +1,5 @@
 <template>
-  <section class="excurse" id="adv">
+  <section class="excurse" id="advantages">
     <div class="excurse_content">
       <div class="title">
         <span>{{ $t('advantages.title') }}</span>
