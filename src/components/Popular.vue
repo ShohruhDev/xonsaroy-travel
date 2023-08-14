@@ -137,7 +137,6 @@ watch(
 .popular_content {
   height: 80vh;
   padding: 0px 160px;
-  margin-bottom: 100px;
 }
 
 @media (max-width: 768px) {
