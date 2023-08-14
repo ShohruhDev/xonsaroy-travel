@@ -55,11 +55,19 @@ import { Navigation } from 'swiper/modules'
 import { useI18n } from 'vue-i18n'
 
 const modules = [Navigation]
-import { reactive } from 'vue'
+import { reactive, watch } from 'vue'
 
-const { t } = useI18n({ useScope: 'global' })
+const { t, locale } = useI18n({ useScope: 'global' })
 
 const popularItems = reactive([
+  {
+    title: t('tours.umra.title'),
+    duration: `7 ${t('tours.days')}`,
+    price: '1500 $',
+    description: t('tours.umra.description'),
+    imgSrc:
+      'https://images.unsplash.com/photo-1580418827493-f2b22c0a76cb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1287&q=80'
+  },
   {
     title: t('tours.antalya.title'),
     duration: `7 ${t('tours.days')}`,
@@ -107,16 +115,17 @@ const popularItems = reactive([
     description: t('tours.shrilanka.description'),
     imgSrc:
       'https://images.unsplash.com/photo-1638434367723-ccfb703e0314?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1335&q=80'
-  },
-  {
-    title: t('tours.umra.title'),
-    duration: `7 ${t('tours.days')}`,
-    price: '1500 $',
-    description: t('tours.umra.description'),
-    imgSrc:
-      'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Kaaba_mirror_edit_jj.jpg/800px-Kaaba_mirror_edit_jj.jpg'
   }
 ])
+watch(
+  () => locale.value,
+  (newLocale) => {
+    popularItems.forEach((item, index) => {
+      item.title = t(`tours.${item.localeKey}.title`)
+      item.description = t(`tours.${item.localeKey}.description`)
+    })
+  }
+)
 </script>
 
 <style scoped>
