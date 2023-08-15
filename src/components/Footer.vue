@@ -3,20 +3,20 @@
     <div class="footer_content">
       <div class="img">
         <a href="/">
-          <img class="logo" src="../img/logo_xonsaroy.svg" alt="logo" />
+          <img class="logo" src="../img/logog.svg" alt="logo" />
         </a>
       </div>
       <div class="navs">
         <a href="#about">{{ $t('navbar.aboutus') }}</a>
         <a href="#adv">{{ $t('navbar.turs') }}</a>
-        <a href="tel:+998995566666">{{ $t('navbar.contactwithus') }}</a>
+        <a href="tel:+998933010575">{{ $t('navbar.contactwithus') }}</a>
       </div>
       <div class="contact_footer">
         <a href=" https://t.me/xonsaroytravel">
           <i class="fab fa-telegram"></i>
           https://t.me/xonsaroytravel
         </a>
-        <a href="tel:+998995566666">
+        <a href="tel:+998933010575">
           <i class="fa-solid fa-phone"></i>
           +998 93 301 05 75
         </a>

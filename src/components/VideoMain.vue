@@ -86,7 +86,7 @@ const { locale } = useI18n({ useScope: 'global' })
 @media (max-width: 1199px) {
   .info_video_content {
     padding: 0px 70px;
-    height: 75vh;
+    height: 80vh;
   }
 }
 

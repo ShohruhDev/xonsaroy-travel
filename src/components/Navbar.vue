@@ -54,6 +54,9 @@ const handleClick = () => {
 </script>
 
 <style scoped>
+header {
+  margin-bottom: 20px;
+}
 .close {
   position: absolute;
   top: 20px;
