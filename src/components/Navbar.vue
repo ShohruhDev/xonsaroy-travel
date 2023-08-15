@@ -61,8 +61,8 @@ const handleClick = () => {
 }
 
 .logo {
-  width: 150px;
-  height: 150px;
+  width: 175px;
+  height: 175px;
 }
 nav i {
   display: none;
@@ -158,8 +158,8 @@ nav a span:hover {
 
 @media screen and (max-width: 560px) {
   .logo {
-    width: 120px;
-    height: 120px;
+    width: 150px;
+    height: 150px;
   }
   .mobile_navs {
     visibility: visible;
