@@ -1,19 +1,16 @@
 <template>
   <section class="videolazy">
     <div class="video_content">
-      <img
-        src="https://images.unsplash.com/photo-1433838552652-f9a46b332c40?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2370&q=80"
-        alt=""
-      />
+      <img src="https://realestate.xlc.my/wp-content/uploads/2019/04/Rectangle-45.jpg" alt="" />
       <div class="info_video_content">
         <div v-if="locale === 'ru'" class="slogo">
           <span class="travel">ПУТЕШЕСТВУЙ</span>
           <span class="without">вместе с</span>
-          <span class="company_name">Xon Saroy TRAVEL</span>
+          <span class="company_name">XON SAROY TOUR AGENCY</span>
           <a href="#tours" class="btn_lazy">К турам <i class="fas fa-long-arrow-alt-right"></i></a>
         </div>
         <div v-else-if="locale === 'uz'" class="slogo">
-          <span class="company_name">Xon Saroy TRAVEL</span>
+          <span class="company_name">XON SAROY TOUR AGENCY</span>
           <span class="without">bilan birga</span>
           <span class="travel">SAYOHAT QILING</span>
           <a href="#tours" class="btn_lazy"
