@@ -168,7 +168,9 @@ nav a span:hover {
     visibility: visible;
   }
 }
-
+.header_content {
+  height: 150px;
+}
 .mobile_navs a {
   text-align: center;
   font-style: normal;
