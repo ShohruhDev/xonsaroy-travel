@@ -47,15 +47,13 @@
   top: 50%;
   transform: translateY(-50%);
   right: 20%;
-
-  @media (max-width: 850px) {
+}
+@media (max-width: 850px) {
+  .aboutus .about_content_info {
     margin: 0 24px;
     right: 0px;
-    left: 0px;
-  }
-
-  @media (max-width: 850px) {
     padding: 20px 25px;
+    width: 50%;
   }
 }
 
