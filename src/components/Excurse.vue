@@ -85,7 +85,7 @@ const excursions = [
   height: auto;
 }
 
-.excurse .excurse_content .title {
+ .excurse_content .title {
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 700;
@@ -94,7 +94,7 @@ const excursions = [
   color: #0499dd;
 }
 
-.excurse .excurse_content .main_content {
+ .excurse_content .main_content {
   display: grid;
 
   grid-template-rows: 1fr 1fr;
@@ -103,35 +103,35 @@ const excursions = [
 }
 
 @media (max-width: 1280px) {
-  .excurse .excurse_content .main_content {
+ .excurse_content .main_content {
     display: flex;
     flex-direction: column;
   }
 }
 
-.excurse .excurse_content .main_content .content_item {
+ .main_content .content_item {
   display: flex;
   flex-direction: column;
 }
 
-.excurse .excurse_content .main_content .content_item .item {
+ .content_item .item {
   width: 90%;
   display: flex;
   flex-direction: row;
 }
 
-.excurse .excurse_content .main_content .content_item .item .img {
+.content_item .item .img {
   margin-right: 20px;
   font-size: 40px;
   color: #13928e;
 }
 
-.excurse .excurse_content .main_content .content_item .item .text {
+ .content_item .item .text {
   display: flex;
   flex-direction: column;
 }
 
-.excurse .excurse_content .main_content .content_item .item .text .text_title {
+ .item .text .text_title {
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 700;
@@ -140,7 +140,7 @@ const excursions = [
   color: #0499dd;
 }
 
-.excurse .excurse_content .main_content .content_item .item .text .main_text {
+ .item .text .main_text {
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 500;
