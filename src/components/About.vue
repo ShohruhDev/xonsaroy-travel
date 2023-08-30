@@ -79,13 +79,6 @@
   color: #282828;
 }
 @media (max-width: 650px) {
-  /* .aboutus .about_content_info .text p {
-    display: -webkit-box;
-    -webkit-line-clamp: 20;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-    text-overflow: ellipsis;
-  } */
   .aboutus .about_img {
     width: 100%;
     border-radius: 10px;
@@ -97,9 +90,6 @@
   }
   .aboutus .about_content_info .text {
     max-width: 100%;
-  }
-  .popular {
-    margin-top: 300px;
   }
 }
 </style>
