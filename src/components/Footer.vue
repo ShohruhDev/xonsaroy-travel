@@ -12,9 +12,9 @@
         <a href="tel:+998933010575">{{ $t('navbar.contactwithus') }}</a>
       </div>
       <div class="contact_footer">
-        <a href=" https://t.me/xonsaroytravel">
+        <a href=" https://t.me/xonsaroytour">
           <i class="fab fa-telegram"></i>
-          https://t.me/xonsaroytravel
+          https://t.me/xonsaroytour
         </a>
         <a href="tel:+998933010575">
           <i class="fa-solid fa-phone"></i>
@@ -27,9 +27,9 @@
           xonsaroytouragency@gmail.com
         </a>
         <div class="social">
-          <a href="https://instagram.com/xonsaroy.travel?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D"
+          <a href="https://instagram.com/xonsaroytour?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D"
             ><i id="ins" class="fab fa-instagram"></i>
-            instagram.com/xonsaroy.travel
+            instagram.com/xonsaroy.tour
           </a>
         </div>
         <div>
