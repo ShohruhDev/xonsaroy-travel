@@ -4,8 +4,8 @@
       <i class="fa-solid fa-share-nodes"></i>
     </span>
     <i class="line"></i>
-    <a href=" https://t.me/xonsaroytravel"><i class="fab fa-telegram"></i></a>
-    <a href="https://instagram.com/xonsaroy.travel?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D"
+    <a href=" https://t.me/xonsaroytour"><i class="fab fa-telegram"></i></a>
+    <a href="https://instagram.com/xonsaroytour?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D"
       ><i class="fab fa-instagram"></i
     ></a>
     <a href="tel:+998933010575">
