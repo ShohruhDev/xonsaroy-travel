@@ -22,9 +22,9 @@
         </a>
       </div>
       <div class="social_footer">
-        <a href="mailto:xonsaroytravel@gmail.com" class="mail">
+        <a href="mailto:xonsaroytouragency@gmail.com" class="mail">
           <i class="fas fa-envelope"></i>
-          xonsaroytravel@gmail.com
+          xonsaroytouragency@gmail.com
         </a>
         <div class="social">
           <a href="https://instagram.com/xonsaroy.travel?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D"
