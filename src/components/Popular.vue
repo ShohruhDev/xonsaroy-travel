@@ -232,4 +232,9 @@ const popularItems = reactive([
   color: #ffffff;
   margin-bottom: 10px;
 }
+@media (max-width: 650px) {
+  .popular {
+    margin-top: 300px;
+  }
+}
 </style>
